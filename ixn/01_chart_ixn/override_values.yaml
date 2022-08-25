@@ -34,7 +34,7 @@ ixnService:
 
   prometheus:
     podMonitor:
-      enabled: true
+      enabled: false
       targetLabels:
         - service
         - servicename
@@ -59,8 +59,8 @@ ixnService:
       engine: "postgre"
       port: 5432
       connectionString: "KeepaliveInterval=1;KeepaliveTime=60;"
-      name: ixn-100
-      host: pgdb-dgt-postgresql.infra.svc.cluster.local
+      name: "ixn-100"
+      host: "pgdb-dgt-postgresql.infra.svc.cluster.local"
       
 
     dbinit:
