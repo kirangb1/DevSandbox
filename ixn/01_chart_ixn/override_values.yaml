@@ -3,7 +3,7 @@
 # https://all.docs.genesys.com/IXN/Current/IXNPEGuide/Configure
 ###############################################################################
 image:
-  registry: "$IMAGE_REGISTRY"
+  registry: "$IMAGE_REGISTRY"/ixn
   pullPolicy: Always
   imagePullSecrets:
     - name: pullsecret
@@ -47,13 +47,13 @@ ixnService:
       name:
 
     ports:
-      default: 7120
+      default: 7100
       health: 9100
 
     confServer:
       host: "localhost"
       port: 8888
-      appName: InteractionServer
+      appName: IxNServer
 
     db:
       engine: "postgre"
