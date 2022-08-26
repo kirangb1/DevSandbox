@@ -96,6 +96,8 @@ ixnService:
       enabled: true
     db:
       port: 5432
+      name: "ixn-100"
+      host: "pgdb-dgt-postgresql.infra.svc.cluster.local"
       options:
         keepAlive: true
         keepAliveInitialDelayMillis: 300000
