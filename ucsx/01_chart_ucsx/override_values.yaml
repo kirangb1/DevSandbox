@@ -6,7 +6,7 @@
 replicaCount: 1
 
 image:
-  registry: $IMAGE_REGISTRY
+  registry: $IMAGE_REGISTRY/ucsx
   # repository: ucsx/ucsx  
   pullPolicy: IfNotPresent
   pullSecrets: 
