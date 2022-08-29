@@ -4,7 +4,7 @@
 ###############################################################################
 
 image:
-  registry: $IMAGE_REGISTRY
+  registry: $IMAGE_REGISTRY/ucsx
   pullSecrets: 
     - name: pullsecret
 
@@ -24,9 +24,9 @@ wwe:
 
 gauth:
   auth:
-    url: http://gauth-auth.gauth.svc
+    url: http://gauth-auth.gauth:80
   env:
-    url: http://gauth-environment.gauth.svc
+    url: http://gauth-environment.gauth:80
 
 resources: {}
 
