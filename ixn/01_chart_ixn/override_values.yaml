@@ -60,7 +60,7 @@ ixnService:
       port: 5432
       connectionString: "KeepaliveInterval=1;KeepaliveTime=60;"
       name: "ixn-100"
-      host: "pgdb-dgt-postgresql.infra.svc.cluster.local"
+      host: "pgdb-gws-postgresql.infra.svc.cluster.local"
       
 
     dbinit:
@@ -97,7 +97,7 @@ ixnService:
     db:
       port: 5432
       name: "ixn-100"
-      host: "pgdb-dgt-postgresql.infra.svc.cluster.local"
+      host: "pgdb-gws-postgresql.infra.svc.cluster.local"
       options:
         keepAlive: true
         keepAliveInitialDelayMillis: 300000
