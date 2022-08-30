@@ -9,14 +9,14 @@ tenant:
 ixnService:
   image:
     ixnServer:
-      repository: "/ixn/interaction_server"
+      repository: "ixn/interaction_server"
       tag: 100.0.007.0400
     logSidecar:
       enabled: true
       repository: "fluent/fluent-bit"
       tag: "1.8.5"
     ixnNode:
-      repository: "/ixn/ixn_node"
+      repository: "ixn/ixn_node"
       tag: 100.0.008.0501
 
   ixnServer:
@@ -48,7 +48,7 @@ ixnService:
 ixnVQNode:
   image:
     ixnVQNode:
-      repository: "/ixn/ixn_vq_node"
+      repository: "ixn/ixn_vq_node"
       tag: 100.0.008.0201
 
 # Custom override-valuse for usage in pre-release-script
