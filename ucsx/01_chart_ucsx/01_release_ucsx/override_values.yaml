@@ -4,14 +4,13 @@
 ###############################################################################
 gauth:
   auth:
-    clientId: ucsx_api_client
-    clientSecret: KAxmgfFKsaZzVhpBTQHFybQc+T10/SnZU80+EYkMjwU=
+    clientId: "ucsx_api_client"
+    clientSecret: "KAxmgfFKsaZzVhpBTQHFybQc+T10/SnZU80+EYkMjwU="
 
 db:
-  user: postgres
-  password: secret
-  host: pgdb-gws-postgresql.infra.svc.cluster.local
-  name: ucsx
+  user: "postgres"
+  password: "secret"
+  host: "pgdb-gws-postgresql.infra.svc.cluster.local"
+  name: "ucsx"
   port: "5432"
   ssl: "false"
-  
