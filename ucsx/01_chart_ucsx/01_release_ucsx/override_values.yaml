@@ -8,8 +8,8 @@ gauth:
     clientSecret: "KAxmgfFKsaZzVhpBTQHFybQc+T10/SnZU80+EYkMjwU="
 
 db:
-  user: "genucsx"
-  password: "genucsx"
+  user: "postgres"
+  password: "secret"
   host: "pgdb-gws-postgresql.infra.svc.cluster.local"
   name: "ucsx"
   port: "5432"
