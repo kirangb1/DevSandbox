@@ -22,15 +22,22 @@ function replace_overrides {
 ###############################################################################
 export POSTGRES_ADDR=$( get_secret POSTGRES_ADDR )
 export DB_NAME_UCSX=$( get_secret DB_NAME_UCSX )
+export CMX_MASTER_DB_HOST=$( get_secret POSTGRES_ADDR )
+export CMX_MASTER_DB_NAME=$( get_secret DB_NAME_UCSX )
+export CMX_MASTER_DB_PORT="5432"
 ###############################################################################
 # 			Postgres admin credentials (uses for creating gauth db)
 export POSTGRES_USER=$( get_secret POSTGRES_USER )
 export POSTGRES_PASSWORD=$( get_secret POSTGRES_PASSWORD )
+export CMX_MASTER_DB_USER="genucsx"
+export CMX_MASTER_DB_PASSWORD="genucsx"
 ###############################################################################
 # 					Gauth ucsx credentials 
 ###############################################################################
 export ucsx_gauth_client_id=$( get_secret ucsx_gauth_client_id )
 export ucsx_gauth_client_secret=$( get_secret ucsx_gauth_client_secret )
+export CMX_GWS_SERVICE_CREDENTIALS_CLIENT_ID=$( get_secret ucsx_gauth_client_id )
+export CMX_GWS_SERVICE_CREDENTIALS_CLIENT_SECRET=$( get_secret ucsx_gauth_client_secret )
 ###############################################################################
 
 # For validation process need to evaluate release override values here
