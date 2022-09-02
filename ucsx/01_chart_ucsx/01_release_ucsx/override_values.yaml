@@ -6,8 +6,6 @@ gauth:
   auth:
     clientId: ucsx_gauth_client_id
     clientSecret: ucsx_gauth_client_secret
-    CMX_GWS_SERVICE_CREDENTIALS_CLIENT_ID: ucsx_gauth_client_id
-    CMX_GWS_SERVICE_CREDENTIALS_CLIENT_SECRET: ucsx_gauth_client_secret
 
 db:
   user: POSTGRES_USER
@@ -16,10 +14,4 @@ db:
   name: DB_NAME_UCSX
   port: "5432"
   ssl: "false"
-  CMX_MASTER_DB_HOST: POSTGRES_ADDR
-  CMX_MASTER_DB_NAME: DB_NAME_UCSX
-  CMX_MASTER_DB_SSL: "false"
-  CMX_MASTER_DB_PORT: "5432"
-  CMX_MASTER_DB_USER: POSTGRES_USER
-  CMX_MASTER_DB_PASSWORD: POSTGRES_PASSWORD
   
