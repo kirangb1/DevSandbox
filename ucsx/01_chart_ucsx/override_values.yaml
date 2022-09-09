@@ -3,7 +3,7 @@
 # https://all.docs.genesys.com/UCS/Current/UCSPEGuide/Configure
 ###############################################################################
 
-replicaCount: 1
+replicaCount: 2
 
 image:
   registry: $IMAGE_REGISTRY
@@ -58,7 +58,7 @@ service:
   annotations: {}
 
 elasticsearch:
-  url: http://ucsx-es-elasticsearch.ucsx.svc:9200
+  url: http://elastic-es-http.infra.svc:9200
 
 # * Monitoring
 monitoring:
