@@ -20,7 +20,7 @@ resources:
     cpu: 300m
     memory: 500Mi
 
-existingSecret: ucsx-secret
+existingSecret: 
 existingConfig: ucsx-config
 
 ingress:
