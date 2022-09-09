@@ -3,7 +3,7 @@
 # https://all.docs.genesys.com/UCS/Current/UCSPEGuide/Configure
 ###############################################################################
 
-replicaCount: 2
+replicaCount: 1
 
 image:
   registry: $IMAGE_REGISTRY
