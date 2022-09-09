@@ -3,10 +3,10 @@
 # https://all.docs.genesys.com/UCS/Current/UCSPEGuide/Configure
 ###############################################################################
 
-replicaCount: 1
+replicaCount: 2
 
 image:
-  registry: $IMAGE_REGISTRY
+  registry: $IMAGE_REGISTRY/ucsx
   # repository: ucsx/ucsx  
   pullPolicy: IfNotPresent
   pullSecrets: 
