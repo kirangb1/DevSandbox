@@ -24,9 +24,9 @@ wwe:
 
 gauth:
   auth:
-    url: http://gauth-auth.gauth.80
+    url: http://gauth-auth.gauth.svc
   env:
-    url: http://gauth-environment.gauth:80
+    url: http://gauth-environment.gauth.svc
 
 resources: {}
 
