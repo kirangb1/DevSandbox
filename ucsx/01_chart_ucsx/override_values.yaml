@@ -21,7 +21,7 @@ resources:
     memory: 500Mi
 
 existingSecret: 
-existingConfig: ucsx-config
+existingConfig:
 
 ingress:
   enabled: true
