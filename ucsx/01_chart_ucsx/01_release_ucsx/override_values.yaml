@@ -10,7 +10,7 @@ gauth:
 db:
   user: postgres
   password: secret
-  host: pgdb-dgt-postgresql.infra.svc
+  host: pgdb-dgt-postgresql.infra.svc.cluster.local
   name: genucsx
   port: "5432"
   ssl: "false"
