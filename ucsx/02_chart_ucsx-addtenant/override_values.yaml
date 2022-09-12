@@ -4,7 +4,7 @@
 ###############################################################################
 
 image:
-  registry: $IMAGE_REGISTRY/ucsx
+  registry: $IMAGE_REGISTRY
   pullSecrets: 
     - name: pullsecret
 
