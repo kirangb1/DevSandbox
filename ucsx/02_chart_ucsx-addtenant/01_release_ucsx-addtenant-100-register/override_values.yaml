@@ -13,10 +13,10 @@ gauth:
     regions: global_location
 
 db:
-  host: pgdb-dgt-postgresql.infra.svc.cluster.local
+  host: POSTGRES_ADDR
   ssl: false
-  name: genucsx
-  password: secret
-  user: postgres
+  name: ucsx_tenant_db_name
+  password: ucsx_tenant_db_password
+  user: ucsx_teannt_db_user
   port: "5432"
   ssl: "false"
