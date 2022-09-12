@@ -8,9 +8,9 @@ gauth:
     clientSecret: ucsx_gauth_client_secret
 
 db:
-  user: ucsx_tenant_db_user
-  password: ucsx_tenant_db_password
+  user: POSTGRES_USER
+  password: POSTGRES_PASSWORD
   host: POSTGRES_ADDR
-  name: ucsx_tenant_db_name
+  name: DB_NAME_UCSX
   port: "5432"
   ssl: "false"
