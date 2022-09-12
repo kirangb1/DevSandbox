@@ -13,7 +13,7 @@ gauth:
     regions: global_location
 
 db:
-  host: pgdb-dgt-postgresql.infra.svc
+  host: pgdb-dgt-postgresql.infra.svc.cluster.local
   ssl: false
   name: genucsx
   password: secret
