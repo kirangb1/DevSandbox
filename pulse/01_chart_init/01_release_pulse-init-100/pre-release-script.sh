@@ -62,7 +62,7 @@ if [ ! "$(helm list -n $NS | grep pulse-redis)" ]; then
   HELM_VERSION=16.8.9
   HELMPACK="redis"
   REPO_NAME="bitnami"
-  BITNAMI_URL="$REPO_NAME https://charts.bitnami.com/bitnami"
+  BITNAMI_URL="https://charts.bitnami.com/bitnami"
   ARGS=""
 #   ARGS="--set master.podSecurityContext.fsGroup=null  \
 #       --set master.containerSecurityContext.runAsUser=null \
